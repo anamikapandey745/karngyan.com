@@ -1,10 +1,10 @@
 // Upload files in static/ So any file static/file.pdf -> /file.pdf is accessible at root
 
 export default {
-  name: 'gyan prakash karn',
-  domain: 'template.karngyan.com', // add without https:// , used in meta tags and share urls
-  image: '/images/bigheadkarngyan.png',
-  email: 'mail@karngyan.com',
+  name: 'anamika kumari',
+  domain: 'anamika.dev', // add without https:// , used in meta tags and share urls
+  image: '/profile.jpeg',
+  email: 'anamikak005@gmail.com',
   googleAnalyticsV4: {
     enabled: false,
     id: ''
@@ -12,28 +12,28 @@ export default {
   // enable if you want comments and likes on posts
   // see how it looks on karngyan.com
   firebase: {
-    enabled: true
+    enabled: false
   },
   social: {
-    github: 'karngyan',
-    linkedin: 'karngyan',
-    facebook: 'karnsometimes',
-    twitter: 'gyankarn',
-    instagram: 'karngyan.dev',
-    codestats: 'karngyan' // https://codestats.net make a profile if you dont already have one.
+    github: 'anamikapandey745',
+    // linkedin: 'karngyan',
+    // facebook: 'karnsometimes',
+    // twitter: 'gyankarn',
+    // instagram: 'karngyan.dev',
+    // codestats: 'karngyan' // https://codestats.net make a profile if you dont already have one.
   },
   buyMeACoffee: {
-    enabled: true,
+    enabled: false,
     url: 'https://www.buymeacoffee.com/karngyan'
   },
   projects: {
-    enabled: true,
+    enabled: false,
   },
   blog: {
-    enabled: true,
+    enabled: false,
   },
   resume: {
-    enabled: true,
+    enabled: false,
     pdfUrl: '/RESUME_GYAN_KARN_DARK.pdf' // add files in static folder
   },
   uses: {
@@ -51,14 +51,15 @@ export default {
     // add logos in static and at max add 3/4
     enabled: true,
     meta: [
-      { name: 'SendPost', src: '/images/sendpost.png', url: 'https://sendpost.io' },
+      // { name: 'SendPost', src: '/images/sendpost.png', url: 'https://sendpost.io' },
       { name: 'Amazon', src: '/images/amazon.png', url: 'https://amazon.in' },
-      { name: 'InterviewReady', src: '/images/interviewready-io.png', url: 'https://get.interviewready.io' },
-      { name: 'CrioDo', src: '/images/crio.png', url: 'https://crio.do' },
+      { name: 'Hopscotch', src: '/hopscotch.png', url: 'https://hopscotch.in' },
+      // { name: 'InterviewReady', src: '/images/interviewready-io.png', url: 'https://get.interviewready.io' },
+      // { name: 'CrioDo', src: '/images/crio.png', url: 'https://crio.do' },
     ]
   },
   loadingIndicator: {
-    name: 'pulse'
+    name: 'cube-grid'
     // https://tobiasahlin.com/spinkit/
     // circle
     // cube-grid
@@ -89,7 +90,7 @@ export default {
         iBlogTech: 'i blog tech',
         haveALook: 'have a look',
         friendlyNeighborhood: 'your friendly neighborhood',
-        description: 'i am a software engineer and a part time freelancer. i blog tech, write a weekend newsletter called software shots, and tinker with side projects every now n then.',
+        description: 'i am a software developnment engineer at amazon. i code mostly in java and enjoy developing highly available backend services.',
         words: ['developer', 'designer', 'engineer', 'programmer', 'encoder'],
       },
       githubCalendar: {
@@ -98,7 +99,7 @@ export default {
       },
       blog: {
         header: 'blog',
-        subtext: 'i try to write once in a while. let me know your thoughts in comments or mail@karngyan.com'
+        subtext: 'i try to write once in a while. let me know your thoughts in comments'
       },
       recentBlog: {
         header: 'recent blogs',
